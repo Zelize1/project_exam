@@ -659,7 +659,9 @@ footer div {
         margin-bottom: 0px;
     }
 
-
+    .raptorBox {
+        width: 350px;
+    }
     
 }
 
