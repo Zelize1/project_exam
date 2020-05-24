@@ -506,7 +506,7 @@ footer div {
 
 /* Responsiveness */
 
-@media only screen and (min-device-width: 340px) and (max-device-width: 912px) {
+@media only screen and (max-width: 912px) {
     .launchContainer, .countdownJump {
         margin-bottom: 1000px;
 
@@ -516,9 +516,36 @@ footer div {
         font-family: bolderFont;
     }
 
+    .header li, .header a {
+        margin-bottom: -15px;
+        margin-right: 100px;
+    }
+
+    .header {
+        height: 250px;
+    }
+
     footer {
         position: static;
         bottom: 0;
+        margin: 0;
+        height: 200px;
+    }
+
+    footer li {
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+    }
+
+    .footerLogo {
+        display: none;
+    }
+
+    footer img {
+        display: flex;
+        flex-direction: row;
+        margin-top: 5px;
     }
 
     body {
@@ -532,64 +559,110 @@ footer div {
     .apodButton:hover {
         background-color: black;
     }
+
+    .projectsContainer {
+        width: 500px;
+        height: 300px;
+    }
+
+    .projectsText {
+        margin-left: 20px;
+    }
+
+    .countdownJump {
+        width: 400px;
+    }
+
+    .launchContainer {
+        width: 400px;
+    }
+
+    .aboutTextContainer, .quote {
+        width: 400px;
+    }
+
+    .formContainer {
+        width: 350px;
+    }
+
+    .videoInterviewBox iframe {
+        width: 400px;
+        height:250px;
+    }
+
+    .astronautBox, .videoInterviewBox {
+        width: 400px;
+    }
+
     
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px){
-    .launchContainer, .countdownJump {
-        margin-bottom: 1000px;
+@media only screen and (max-width: 500px) {
+    .header li, .header a {
+        font-size: 15px;
+        float: left;
+        display: flex;
+        margin-bottom: -20px;
+        margin-right: 20px;
+    }
+
+    .header {
+        height: 150px;
+    }
+
+    .nebulexLogo {
+        width: 100%;
+        height: auto;
+    }
+
+    .newsBox {
+        width: 300px;
+        height: 400px;
+    }
+
+    .newsBox h2 {
+        font-size: 20px;
+    }
+
+    .newsBox h3 {
+        width: 250px;
+        margin: 20px;
+    }
+
+    .newsBox p {
+        margin: 20px;
 
     }
 
-    .astronautText {
-        font-family: bolderFont;
+    .apodContainer #apod {
+        width: 200px;
+        height: auto;
     }
 
-    footer {
-        position: static;
-        bottom: 0;
+    .apodContainer #explanation {
+        width: 450px;
     }
 
-    body {
+    .homeText .apodButton {
+        width: 200px;
+        font-size: 10px;;
+    }
+
+    .projectsContainer {
+        width: 350px;
+        height: 450px;
+        text-align: center;
+    }
+
+    .projectsContainer img {
+        float: none;
         margin-bottom: 0px;
     }
 
-    .raptorBody footer {
-        position: fixed;
-    }
 
-    .apodButton:hover {
-        background-color: black;
-    }
-
-    footer {
-        width: 100%;
-    }
+    
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
-    .launchContainer, .countdownJump {
-        margin-bottom: 1000px;
-    }
+@media only screen and (max-width: 320px) {
 
-    .astronautText {
-        font-family: bolderFont;
-    }
-
-    footer {
-        position: static;
-        bottom: 0;
-    }
-
-    body {
-        margin-bottom: 0px;
-    }
-
-    .raptorBody footer {
-        position: fixed;
-    }
-
-    .apodButton:hover {
-        background-color: black;
-    }
 }

@@ -14,6 +14,5 @@ request.addEventListener("load", function(){
     document.getElementById("explanation").textContent = response.explanation;
     document.getElementById("date").textContent = response.date;
     document.getElementById("apod").src = response.hdurl;
-    document.getElementById("owner").textContent = response.copyright;
     }
 })
