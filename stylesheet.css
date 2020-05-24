@@ -587,13 +587,20 @@ footer div {
         width: 400px;
     }
 
-    .apodContainer #apod {
-        width: 300px;
-        height: auto;
+    .apodContainer {
+        width: 100%;
+        text-align: center;
     }
 
     .apodContainer #explanation {
+        display: block;
+        margin: auto;
         width: 400px;
+    }
+
+    .apodContainer #apod {
+        width: 300px;
+        height: auto;
     }
 
     .aboutTextContainer, .quote {
@@ -615,6 +622,7 @@ footer div {
 
     .raptorBox {
         width: 450px;
+        padding-bottom: 300px;
     }
 
     .raptorText {
@@ -647,6 +655,16 @@ footer div {
 
     .homeImage {
         display: none;
+    }
+
+    .apodContainer {
+        width: 100%;
+        text-align: center;
+    }
+
+    .apodContainer #explanation {
+        display: block;
+        margin: auto;
     }
     
 }
@@ -687,6 +705,11 @@ footer div {
     .newsBox p {
         margin: 20px;
 
+    }
+
+    .apodContainer {
+        width: 100%;
+        text-align: center;
     }
 
     .apodContainer #apod {
