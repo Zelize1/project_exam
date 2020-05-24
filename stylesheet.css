@@ -243,16 +243,12 @@ footer div {
     font-family: bolderFont;
 }
 
-#date, #explanation, #credit {
+#date, #explanation {
     font-family: navFont;
 }
 
-#date, #explanation, #title, #credit {
+#date, #explanation, #title {
     color: white;
-}
-
-#credit {
-    float: right;
 }
 
 #apod {
@@ -514,6 +510,66 @@ footer div {
     .launchContainer, .countdownJump {
         margin-bottom: 1000px;
 
+    }
+
+    .astronautText {
+        font-family: bolderFont;
+    }
+
+    footer {
+        position: static;
+        bottom: 0;
+    }
+
+    body {
+        margin-bottom: 0px;
+    }
+
+    .raptorBody footer {
+        position: fixed;
+    }
+
+    .apodButton:hover {
+        background-color: black;
+    }
+    
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px){
+    .launchContainer, .countdownJump {
+        margin-bottom: 1000px;
+
+    }
+
+    .astronautText {
+        font-family: bolderFont;
+    }
+
+    footer {
+        position: static;
+        bottom: 0;
+    }
+
+    body {
+        margin-bottom: 0px;
+    }
+
+    .raptorBody footer {
+        position: fixed;
+    }
+
+    .apodButton:hover {
+        background-color: black;
+    }
+
+    footer {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+    .launchContainer, .countdownJump {
+        margin-bottom: 1000px;
     }
 
     .astronautText {
