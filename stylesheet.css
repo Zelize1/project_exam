@@ -37,11 +37,14 @@ body {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 a:hover {
     text-decoration: underline;
 }
+
+
 
 /* Header and Footer - For all pages */
 
@@ -373,6 +376,11 @@ footer div {
 #button {
     float: left;
     margin: 10px;
+    font-family: bolderFont;
+}
+
+#button:hover {
+    background-color: rgb(78, 178, 218);
 }
 
 .errorMessages {
@@ -664,6 +672,7 @@ footer div {
     .newsBox {
         width: 300px;
         height: 400px;
+        text-align: center;
     }
 
     .newsBox h2 {
