@@ -177,6 +177,7 @@ footer div {
     margin: auto;
     background-color: black;
     margin-top: 60px;
+    display: block;
 }
 
 .newsBoxImage {
@@ -439,6 +440,7 @@ footer div {
     margin: auto;
     background-color: white;
     margin-top: 60px;
+    display: block;
 }
 
 .projectsImage {
