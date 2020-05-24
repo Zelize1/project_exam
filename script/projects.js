@@ -15,6 +15,6 @@ const count = setInterval(function() {
 
     if (howLong < 0) {
         clearInterval(count);
-        document.querySelector("countdown").innerHTML = "The launch is completed!";
+        document.querySelector("#countdown").innerHTML = "The launch is completed!";
     }
 }, 1000);
