@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Nebulex | About</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body class="aboutBody">
+        <nav class="header">
+            <li><a href="projects.html">Projects</a></li>
+            <li id="nebulex"><a href="index.html">Nebulex</a></li>
+            <li><a href="about.html" class="currentPage">About Us</a></li>
+        </nav> 
+
+        <div class="aboutTextContainer">
+            <h1 class="aboutTitle">MAKING LIFE MULTIPLANETARY</h1>
+            <p class="aboutText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Morbi sit amet dolor at dui cursus laoreet a in erat. 
+                Vestibulum imperdiet euismod dolor, eu sodales nibh sagittis non. 
+                Mauris auctor lacus quam, eu tincidunt augue accumsan laoreet. 
+                Maecenas nec felis et massa aliquet dignissim. 
+                In varius nunc quis eros facilisis maximus.</p>
+            <p class="aboutText">Donec sollicitudin id dolor ut euismod. 
+                Aenean blandit dui non arcu viverra rutrum. 
+                Donec posuere ullamcorper tellus, ac efficitur ex laoreet a. 
+                Quisque efficitur consequat vehicula.</p>
+        </div>
+
+        <div class="iconsContainer">
+            <img src="images/icon_1.png" alt="Planet icon" class="aboutIcons">
+            <img src="images/icon_2.png" alt="Rocket icon" class="aboutIcons">
+            <img src="images/icon_3.png" alt="Planet icon" class="aboutIcons">
+            <img src="images/icon_4.png" alt="Satelitte icon" class="aboutIcons">
+        </div>
+
+        <blockquote class="quote">
+            “You want to wake up in the morning and think the future is going to be great - 
+            and that's what being a spacefaring civilization is all about. 
+            It's about believing in the future and thinking that the future will be better than the past. 
+            And I can't think of anything more exciting than going out there and being among the stars.” -Elon Musk, SpaceX
+        </blockquote>
+
+        <div class="nublexLogoContainer">
+            <img src="images/nebulex.png" alt="Nebulex logo" class="nebulexLogo">
+        </div>
+
+        <!-- Form submission -->
+        <div id="blackPage">
+        
+        <h1 class="getInTouch" id="hyperlinkJump">Get in touch</h1>
+
+        <div class="formAndTextContainer">
+            <form class="formContainer">
+                
+                    <div class="forms">
+                        <input type="text" placeholder="Enter name" name="name" id="name" required>
+                            <p id="nameError" class="errorMessages">Please enter your name.</p>
+                        <input type="email" placeholder="Enter e-mail" name="email" id="email" required>
+                            <p id="emailError" class="errorMessages">Please enter a valid email adress</p>
+                    <select placeholder="Choose a subject" name="subject" id="subjectSelection">
+                        <option value="Feedback">Feedback</option>
+                        <option value="Support">Support</option>
+                        <option value="Photo">Photo submission</option>
+                    </select>
+                        <textarea id="message"></textarea>
+                            <p id="messageError" class="errorMessages">Please enter in your message</p>
+                        <button type="submit" name="submit" id="button">Sumbit!</button>
+                        <p id="messageSubmission">Your message has been submitted</p>
+                    </div>
+                    <div class="textContainer">
+                        <p class="formText">Use the contact form to get in touch, 
+                        or stop by at our Nebulex Headquarters.</p>
+        
+                        <p class="formText">Rocket Road
+                        Hawthorne, California</p>
+
+                        <p class="formText">
+                            310-363-6000
+                        </p>
+
+                        <p class="formText">
+                            Media inquiries
+                            media@nebulex.com
+                            </p>
+                    </div>                 
+            </form>
+        </div>
+            
+
+        </div>
+        
+        <footer>
+            <div class="footerLeft">
+                <li><a href="about.html#hyperlinkJump">CONTACT</a></li>
+                <li><a href="#">PRIVACY</a></li>
+                <li><a href="#">APPLY</a></li>
+            </div>
+
+            <div class="footerLogo">
+                <li class="footerNebulex">Nebulex</li>
+            </div>
+        
+
+            <div class="footerRight">
+            <img src="images/facebook.png" class="footerThumbnails">
+            <img src="images/instagram.png" class="footerThumbnails">
+            <img src="images/twitter.png" class="footerThumbnails">
+            <img src="images/youtube.png" class="footerThumbnails">
+            </div>
+        </footer>
+    
+        <script src="script/about.js"></script>
+    </body>
+</html>
