@@ -577,6 +577,11 @@ footer div {
         width: 400px;
     }
 
+    .apodContainer #apod {
+        width: 300px;
+        height: auto;
+    }
+
     .aboutTextContainer, .quote {
         width: 400px;
     }
@@ -591,6 +596,14 @@ footer div {
     }
 
     .astronautBox, .videoInterviewBox {
+        width: 400px;
+    }
+
+    .raptorBox {
+        width: 450px;
+    }
+
+    .raptorText {
         width: 400px;
     }
 
@@ -662,9 +675,8 @@ footer div {
     .raptorBox {
         width: 350px;
     }
+
+    .raptorText {
+        width: 300px;
+    }
     
-}
-
-@media only screen and (max-width: 320px) {
-
-}
