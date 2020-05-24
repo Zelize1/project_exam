@@ -582,6 +582,10 @@ footer div {
         height: auto;
     }
 
+    .apodContainer #explanation {
+        width: 400px;
+    }
+
     .aboutTextContainer, .quote {
         width: 400px;
     }
@@ -606,7 +610,34 @@ footer div {
     .raptorText {
         width: 400px;
     }
+    
 
+    
+}
+
+@media only screen and (max-width: 720px) {
+    .newsBox {
+        width: 300px;
+        height: 500px;
+    }
+
+    .newsBox h2 {
+        font-size: 20px;
+    }
+
+    .newsBox h3 {
+        width: 250px;
+        margin: 20px;
+    }
+
+    .newsBox p {
+        margin: 20px;
+
+    }
+
+    .homeImage {
+        display: none;
+    }
     
 }
 
